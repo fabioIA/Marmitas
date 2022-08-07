@@ -1,7 +1,7 @@
 header {
-    background-color: #2bb868;
+    background-color: #048c2c;
     color: aliceblue;
-    height: 30vh;
+    height: 10em;
 }
 
 .cabecalho {
@@ -51,10 +51,23 @@ nav ul li a {
 
 .titulo {
     text-shadow: 0.1em 0.1em 0.1em #008037;
-    margin-top: 3em;
-    margin-left: 8%;
+    margin-top: 2em;
+    margin-left: 3vw;
 }
 
 #baixo {
     margin-left: 4em;
+}
+
+/* .topo {
+    margin-left: 65em;
+    width: 50vw;
+}
+
+.topo > i {
+    margin-left: 1.5em;
+} */
+
+a:hover {
+    color: rgb(184, 229, 194);
 }

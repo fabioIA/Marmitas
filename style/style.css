@@ -2,6 +2,103 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a:hover {
-    color: rgb(184, 229, 194);
+
+/* Interesses */
+
+.interessa {
+    text-align: center;
+    margin-top: 3em;
+}
+
+/* título */
+
+.interessa > h1 {
+    font-size: 3em;
+    font-weight: 900;
+}
+
+/* Div das fotos */
+
+.interessa > div {
+    width: 960px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+}
+
+/* imagens */
+
+.interessa > div > div > a > figure {
+    width: 13em;
+    flex-direction: column;
+    border: solid 1em #3D9625;
+    background-color: #3D9625;
+    border-radius: 0.5em;
+    transition: all 0.7s;
+}
+
+#foto {
+    width: 13em;
+    border-radius: 1em;
+    transition: all 0.7s;
+}
+
+/* Botões de compra */
+
+#botao {
+    background-color: #fb7927;
+    border: solid 1px #fc6c21;
+    border-radius: 10px;
+    width: 12em;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 1em;
+    transition: all 0.6s;
+}
+
+/* Apos passar o mouse */
+
+.interessa > div > div > a > figure:hover {
+    background-color: green;
+    border-color: green;
+    transform: scale(1.07);
+}
+
+#foto:hover {
+    transform: scale(1.05);
+}
+
+#botao:hover {
+    transform: scale(1.03);
+    background-color: #ba5f27;
+}
+
+/* Quando a tela for menor que 980px */
+
+@media (max-width: 980px) {
+
+    .interessa > div {
+        display: grid;
+        width: 100vw;
+    }
+
+    .interessa > div > div {
+        width: 100vw;
+    }
+
+    .interessa > div > div > a > figure {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+
+
+/* Cardápio */
+
+#cardapio {
+    margin-top: 6em;
+    background-color: rgb(255, 145, 0);
 }
