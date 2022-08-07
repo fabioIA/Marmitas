@@ -1,0 +1,60 @@
+header {
+    background-color: #2bb868;
+    color: aliceblue;
+    height: 30vh;
+}
+
+.cabecalho {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+nav {
+    color: white;
+    font-weight: 700;
+    font-size: 12pt;
+    text-shadow: 0.1em 0.1em 0.1em #008037;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    position: absolute;
+    margin-top: -1em;
+}
+
+nav, ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 20vw;
+    right: 10em;
+}
+
+nav ul li {
+    text-align: center;
+    width: 10em;
+    margin: 1em;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 2em;
+    transition: all 0.5s;
+}
+
+.titulo {
+    text-shadow: 0.1em 0.1em 0.1em #008037;
+    margin-top: 3em;
+    margin-left: 8%;
+}
+
+#baixo {
+    margin-left: 4em;
+}

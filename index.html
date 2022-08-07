@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/anima.css">
+    <link rel="stylesheet" href="style/head.css">
+    <link rel="stylesheet" href="style/menu-mobile.css">
     <title>Marli Marmitas</title>
 </head>
 <body>
@@ -20,15 +23,19 @@
             <div class="cabecalho">
                 <div class="titulo">
                     <h1 class="line anim-typewriter">MARLI</h1>
-                    <h1 id="baixo" class="line anim-typewriter">MARMITAS</h1>
+                    <h1 id="baixo" class="lin anim-typewriter">MARMITAS</h1>
                 </div>
 
-                <nav>
-                    <ul>
-                        <a href="#sobre">QUEM SOMOS</a>
-                        <a href="#cardapio">CARDÁPIO</a>
+                <nav data-menu="suave">
+                    <button data-menu="button" aria-controls="menu"></button>
+                    <ul data-menu="list" id="menu">
+                        <ul>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#cardapio">Cardápio</a></li>
+                        </ul>
                     </ul>
                 </nav>
+
             </div>
         </header>
     </section>
@@ -85,7 +92,7 @@
         <footer>
             <section>
                 <figure>
-                    <img src="img/MARLI.png" alt="Marli Marmitas">
+                    <img src="" alt="Marli Marmitas">
                 </figure>
             </section>
         </footer>
